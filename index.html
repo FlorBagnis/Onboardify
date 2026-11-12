@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Mi onboarding</title>
+<meta name="description" content="Apuntes, tarjetas de repaso, horas y dudas de mi onboarding, por empresa.">
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<meta name="theme-color" content="#ffe6f2">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<svg id="defs" width="0" height="0" style="position:absolute" aria-hidden="true"><defs>
+<symbol id="i-flower" viewBox="0 0 24 24"><g fill="none" stroke="#7a3d5c" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="5.5" r="3.6" fill="#ffb3d6"/><circle cx="18.2" cy="10" r="3.6" fill="#ffb3d6"/><circle cx="15.8" cy="17.3" r="3.6" fill="#ffb3d6"/><circle cx="8.2" cy="17.3" r="3.6" fill="#ffb3d6"/><circle cx="5.8" cy="10" r="3.6" fill="#ffb3d6"/><circle cx="12" cy="12" r="4.2" fill="#ffe08a"/><circle cx="10.6" cy="11.5" r="0.7" fill="#7a3d5c" stroke="none"/><circle cx="10.84" cy="11.26" r="0.27" fill="#fff" stroke="none"/><circle cx="13.4" cy="11.5" r="0.7" fill="#7a3d5c" stroke="none"/><circle cx="13.64" cy="11.26" r="0.27" fill="#fff" stroke="none"/><ellipse cx="9.6" cy="13.2" rx="1.1" ry=".7" fill="#ff8fb8" opacity=".65" stroke="none"/><ellipse cx="14.4" cy="13.2" rx="1.1" ry=".7" fill="#ff8fb8" opacity=".65" stroke="none"/><path d="M11.4 13.1q0.6 0.6 1.2 0"/></g></symbol>
+<symbol id="i-note" viewBox="0 0 24 24"><g fill="none" stroke="#7a3d5c" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><rect x="5.5" y="3.5" width="14" height="17" rx="3.5" fill="#ffd6ea"/><path d="M3.2 8h3.6M3.2 12h3.6M3.2 16h3.6"/><circle cx="10.6" cy="10.8" r="0.8" fill="#7a3d5c" stroke="none"/><circle cx="10.88" cy="10.52" r="0.30" fill="#fff" stroke="none"/><circle cx="14.8" cy="10.8" r="0.8" fill="#7a3d5c" stroke="none"/><circle cx="15.08" cy="10.52" r="0.30" fill="#fff" stroke="none"/><ellipse cx="9.4" cy="12.8" rx="1.1" ry=".7" fill="#ff8fb8" opacity=".65" stroke="none"/><ellipse cx="16" cy="12.8" rx="1.1" ry=".7" fill="#ff8fb8" opacity=".65" stroke="none"/><path d="M12.0 12.6q0.7 0.7 1.4 0"/><path d="M10 17h5" stroke="#ff8fb8"/></g></symbol>
+<symbol id="i-star" viewBox="0 0 24 24"><g fill="none" stroke="#7a3d5c" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l2.6 5.6 6.1.7-4.5 4.2 1.2 6-5.4-3-5.4 3 1.2-6L3.3 9.3l6.1-.7z" fill="#ffe08a"/><circle cx="10.3" cy="11.2" r="0.75" fill="#7a3d5c" stroke="none"/><circle cx="10.56" cy="10.94" r="0.29" fill="#fff" stroke="none"/><circle cx="13.7" cy="11.2" r="0.75" fill="#7a3d5c" stroke="none"/><circle cx="13.96" cy="10.94" r="0.29" fill="#fff" stroke="none"/><ellipse cx="9.2" cy="12.9" rx="1.1" ry=".7" fill="#ff8fb8" opacity=".65" stroke="none"/><ellipse cx="14.8" cy="12.9" rx="1.1" ry=".7" fill="#ff8fb8" opacity=".65" stroke="none"/><path d="M11.4 12.7q0.6 0.6 1.2 0"/></g></symbol>
+<symbol id="i-clock" viewBox="0 0 24 24"><g fill="none" stroke="#7a3d5c" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><circle cx="5.3" cy="5.8" r="2.3" fill="#ffb3d6"/><circle cx="18.7" cy="5.8" r="2.3" fill="#ffb3d6"/><circle cx="12" cy="13.2" r="7.6" fill="#bfeedd"/><path d="M12 8.8V12l2.4-1.2"/><circle cx="9.3" cy="14" r="0.7" fill="#7a3d5c" stroke="none"/><circle cx="9.54" cy="13.76" r="0.27" fill="#fff" stroke="none"/><circle cx="14.7" cy="14" r="0.7" fill="#7a3d5c" stroke="none"/><circle cx="14.94" cy="13.76" r="0.27" fill="#fff" stroke="none"/><ellipse cx="8.2" cy="15.6" rx="1.1" ry=".7" fill="#ff8fb8" opacity=".65" stroke="none"/><ellipse cx="15.8" cy="15.6" rx="1.1" ry=".7" fill="#ff8fb8" opacity=".65" stroke="none"/><path d="M11.4 15.4q0.6 0.6 1.2 0"/></g></symbol>
+<symbol id="i-chat" viewBox="0 0 24 24"><g fill="none" stroke="#7a3d5c" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 4.5h14a2 2 0 012 2v8a2 2 0 01-2 2h-7l-4 3.5v-3.5H5a2 2 0 01-2-2v-8a2 2 0 012-2z" fill="#cfe6ff"/><circle cx="8.8" cy="10" r="0.8" fill="#7a3d5c" stroke="none"/><circle cx="9.08" cy="9.72" r="0.30" fill="#fff" stroke="none"/><circle cx="15.2" cy="10" r="0.8" fill="#7a3d5c" stroke="none"/><circle cx="15.48" cy="9.72" r="0.30" fill="#fff" stroke="none"/><ellipse cx="7.4" cy="12" rx="1.1" ry=".7" fill="#ff8fb8" opacity=".65" stroke="none"/><ellipse cx="16.6" cy="12" rx="1.1" ry=".7" fill="#ff8fb8" opacity=".65" stroke="none"/><path d="M11.3 11.4q0.7 0.7 1.4 0"/></g></symbol>
+<symbol id="i-mic" viewBox="0 0 24 24"><g fill="none" stroke="#7a3d5c" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5.5 11a6.5 6.5 0 0013 0M12 17.5V21M9 21h6"/><rect x="9" y="3" width="6" height="11" rx="3" fill="#e1d4ff"/><circle cx="10.7" cy="7.4" r="0.6" fill="#7a3d5c" stroke="none"/><circle cx="10.91" cy="7.19" r="0.23" fill="#fff" stroke="none"/><circle cx="13.3" cy="7.4" r="0.6" fill="#7a3d5c" stroke="none"/><circle cx="13.51" cy="7.19" r="0.23" fill="#fff" stroke="none"/><path d="M11.45 9.4q0.55 0.55 1.1 0"/><path d="M19.5 3v3M18 4.5h3" stroke="#ff8fb8"/></g></symbol>
+<symbol id="i-stop" viewBox="0 0 24 24"><g fill="none" stroke="#7a3d5c" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="5" width="14" height="14" rx="5" fill="#ffd0a8"/><path d="M8.4 11.2q1.1-1.3 2.2 0M13.4 11.2q1.1-1.3 2.2 0"/><path d="M11.3 14.2q0.7 0.7 1.4 0"/><ellipse cx="8" cy="13.6" rx="1.1" ry=".7" fill="#ff8fb8" opacity=".65" stroke="none"/><ellipse cx="16" cy="13.6" rx="1.1" ry=".7" fill="#ff8fb8" opacity=".65" stroke="none"/></g></symbol>
+<symbol id="i-heart" viewBox="0 0 24 24"><g fill="none" stroke="#7a3d5c" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20s-7.5-4.6-7.5-10A4.3 4.3 0 0112 7.6 4.3 4.3 0 0119.5 10c0 5.4-7.5 10-7.5 10z" fill="#ff9ec4"/><circle cx="9.9" cy="11.6" r="0.8" fill="#7a3d5c" stroke="none"/><circle cx="10.18" cy="11.32" r="0.30" fill="#fff" stroke="none"/><circle cx="14.1" cy="11.6" r="0.8" fill="#7a3d5c" stroke="none"/><circle cx="14.38" cy="11.32" r="0.30" fill="#fff" stroke="none"/><ellipse cx="8.6" cy="13.4" rx="1.1" ry=".7" fill="#ff8fb8" opacity=".65" stroke="none"/><ellipse cx="15.4" cy="13.4" rx="1.1" ry=".7" fill="#ff8fb8" opacity=".65" stroke="none"/><path d="M11.4 13.2q0.6 0.6 1.2 0"/></g></symbol>
+<symbol id="i-sparkle" viewBox="0 0 24 24"><g fill="none" stroke="#7a3d5c" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l1.8 5.2L19 10l-5.2 1.8L12 17l-1.8-5.2L5 10l5.2-1.8z" fill="#ffe08a"/><circle cx="10.9" cy="9.9" r="0.55" fill="#7a3d5c" stroke="none"/><circle cx="11.09" cy="9.71" r="0.21" fill="#fff" stroke="none"/><circle cx="13.1" cy="9.9" r="0.55" fill="#7a3d5c" stroke="none"/><circle cx="13.29" cy="9.71" r="0.21" fill="#fff" stroke="none"/><path d="M19 15.5v4M17 17.5h4" stroke="#ff8fb8"/></g></symbol>
+<symbol id="i-shop" viewBox="0 0 24 24"><g fill="none" stroke="#7a3d5c" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5.5 11.5V19a1 1 0 001 1h11a1 1 0 001-1v-7.5z" fill="#fff1e3"/><path d="M10 20v-4.5a2 2 0 014 0V20z" fill="#cdb8ff"/><path d="M4 9.5l1.3-5h13.4l1.3 5a2.7 2.7 0 0 1-5.3 0 2.7 2.7 0 0 1-5.4 0 2.7 2.7 0 0 1-5.3 0z" fill="#ffb3d6"/><circle cx="7.8" cy="15.2" r="0.7" fill="#7a3d5c" stroke="none"/><circle cx="8.04" cy="14.96" r="0.27" fill="#fff" stroke="none"/><circle cx="16.2" cy="15.2" r="0.7" fill="#7a3d5c" stroke="none"/><circle cx="16.45" cy="14.96" r="0.27" fill="#fff" stroke="none"/><ellipse cx="7.3" cy="17" rx="1.1" ry=".7" fill="#ff8fb8" opacity=".65" stroke="none"/><ellipse cx="16.7" cy="17" rx="1.1" ry=".7" fill="#ff8fb8" opacity=".65" stroke="none"/></g></symbol>
+<symbol id="i-plus" viewBox="0 0 24 24"><g fill="none" stroke="#7a3d5c" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="8" fill="#a8e6c9"/><path d="M12 8v8M8 12h8" stroke-width="1.9"/></g></symbol>
+<symbol id="i-trash" viewBox="0 0 24 24"><g fill="none" stroke="#7a3d5c" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M6.5 7l1 12.2a1 1 0 001 .8h7a1 1 0 001-.8L17.5 7z" fill="#e1d4ff"/><path d="M4.5 7h15M10 7V4.8h4V7"/><circle cx="10" cy="12.4" r="0.7" fill="#7a3d5c" stroke="none"/><circle cx="10.24" cy="12.16" r="0.27" fill="#fff" stroke="none"/><circle cx="14" cy="12.4" r="0.7" fill="#7a3d5c" stroke="none"/><circle cx="14.24" cy="12.16" r="0.27" fill="#fff" stroke="none"/><ellipse cx="9" cy="14.2" rx="1.1" ry=".7" fill="#ff8fb8" opacity=".65" stroke="none"/><ellipse cx="15" cy="14.2" rx="1.1" ry=".7" fill="#ff8fb8" opacity=".65" stroke="none"/><path d="M11.4 14.6q0.6 0.6 1.2 0"/></g></symbol>
+<symbol id="i-pencil" viewBox="0 0 24 24"><g fill="none" stroke="#7a3d5c" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><g transform="rotate(45 12 12)"><rect x="10" y="6" width="4" height="10" fill="#ffe08a"/><rect x="10" y="3" width="4" height="3" rx="1" fill="#ff9ec4"/><path d="M10 16l2 4.5 2-4.5z" fill="#ffd0a8"/><circle cx="11.1" cy="10" r="0.5" fill="#7a3d5c" stroke="none"/><circle cx="11.28" cy="9.82" r="0.19" fill="#fff" stroke="none"/><circle cx="12.9" cy="10" r="0.5" fill="#7a3d5c" stroke="none"/><circle cx="13.08" cy="9.82" r="0.19" fill="#fff" stroke="none"/><path d="M11.55 12q0.45 0.45 0.9 0"/></g></g></symbol>
+<symbol id="i-pdf" viewBox="0 0 24 24"><g fill="none" stroke="#7a3d5c" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M6 3h8l4 4v14H6z" fill="#fff8fc"/><path d="M14 3v4h4" fill="#ffd6ea"/><circle cx="9.8" cy="11" r="0.7" fill="#7a3d5c" stroke="none"/><circle cx="10.04" cy="10.76" r="0.27" fill="#fff" stroke="none"/><circle cx="14" cy="11" r="0.7" fill="#7a3d5c" stroke="none"/><circle cx="14.24" cy="10.76" r="0.27" fill="#fff" stroke="none"/><ellipse cx="8.8" cy="12.8" rx="1.1" ry=".7" fill="#ff8fb8" opacity=".65" stroke="none"/><ellipse cx="15" cy="12.8" rx="1.1" ry=".7" fill="#ff8fb8" opacity=".65" stroke="none"/><path d="M11.3 12.6q0.6 0.6 1.2 0"/><circle cx="17" cy="17.5" r="3.7" fill="#a8e6c9"/><path d="M17 15.8v3.2M15.6 17.8l1.4 1.4 1.4-1.4"/></g></symbol>
+<symbol id="i-history" viewBox="0 0 24 24"><g fill="none" stroke="#7a3d5c" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="5" width="16" height="15.5" rx="3.5" fill="#ffc0dd"/><path d="M8.5 3v4M15.5 3v4M4 9.5h16"/><circle cx="9.4" cy="13.4" r="0.75" fill="#7a3d5c" stroke="none"/><circle cx="9.66" cy="13.14" r="0.29" fill="#fff" stroke="none"/><circle cx="14.6" cy="13.4" r="0.75" fill="#7a3d5c" stroke="none"/><circle cx="14.86" cy="13.14" r="0.29" fill="#fff" stroke="none"/><ellipse cx="8.2" cy="15.2" rx="1.1" ry=".7" fill="#ff8fb8" opacity=".65" stroke="none"/><ellipse cx="15.8" cy="15.2" rx="1.1" ry=".7" fill="#ff8fb8" opacity=".65" stroke="none"/><path d="M11.3 15.4q.7.7 1.4 0"/></g></symbol>
+<symbol id="i-moon" viewBox="0 0 24 24"><g fill="none" stroke="#7a3d5c" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" fill="#e1d4ff"/><path d="M6.6 13.4q1-1.2 2 0M10.6 13.4q1-1.2 2 0"/><ellipse cx="6.2" cy="15.4" rx="1.1" ry=".7" fill="#ff8fb8" opacity=".65" stroke="none"/><ellipse cx="13" cy="15.4" rx="1.1" ry=".7" fill="#ff8fb8" opacity=".65" stroke="none"/><path d="M8.6 16q.8.7 1.6 0"/><path d="M19 15.5v4M17 17.5h4" stroke="#ff8fb8"/></g></symbol>
+<symbol id="i-palette" viewBox="0 0 24 24"><g fill="none" stroke="#7a3d5c" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5c-4.7 0-8.5 3.5-8.5 8s3.8 8.5 8.5 8.5c1.3 0 2-.8 2-1.7 0-1.2-.9-1.5-.9-2.6 0-1 .8-1.7 1.9-1.7h2.3c1.9 0 3.2-1.4 3.2-3.2 0-4.2-3.9-7.3-8.5-7.3z" fill="#ffe0f0"/><circle cx="8.6" cy="9.2" r="1.3" fill="#ff9ec9"/><circle cx="12.2" cy="7.2" r="1.3" fill="#cdb8ff"/><circle cx="15.8" cy="9" r="1.3" fill="#a8e6c9"/><circle cx="8.4" cy="13.6" r="0.7" fill="#7a3d5c" stroke="none"/><circle cx="8.64" cy="13.36" r="0.27" fill="#fff" stroke="none"/><circle cx="12" cy="13.6" r="0.7" fill="#7a3d5c" stroke="none"/><circle cx="12.24" cy="13.36" r="0.27" fill="#fff" stroke="none"/><ellipse cx="7.2" cy="15.4" rx="1.1" ry=".7" fill="#ff8fb8" opacity=".65" stroke="none"/><ellipse cx="13.2" cy="15.4" rx="1.1" ry=".7" fill="#ff8fb8" opacity=".65" stroke="none"/><path d="M9.4 15.4q.8.7 1.6 0"/></g></symbol>
+<symbol id="i-cat" viewBox="0 0 24 24"><g fill="none" stroke="#ff9ec4" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5.4 10.5L5.2 3.8l4.6 3z" fill="#4a3040"/><path d="M18.6 10.5l.2-6.7-4.6 3z" fill="#4a3040"/><circle cx="12" cy="13.6" r="7.4" fill="#4a3040"/><path d="M6.6 5.9l.1 2.8 1.8-1.2z" fill="#ff9ec4" stroke="none"/><path d="M17.4 5.9l-.1 2.8-1.8-1.2z" fill="#ff9ec4" stroke="none"/><circle cx="9" cy="13" r="1.2" fill="#fff" stroke="none"/><circle cx="15" cy="13" r="1.2" fill="#fff" stroke="none"/><circle cx="9.2" cy="13.1" r=".6" fill="#2b1a24" stroke="none"/><circle cx="15.2" cy="13.1" r=".6" fill="#2b1a24" stroke="none"/><ellipse cx="6.8" cy="15.6" rx="1.1" ry=".7" fill="#ff8fb8" opacity=".65" stroke="none"/><ellipse cx="17.2" cy="15.6" rx="1.1" ry=".7" fill="#ff8fb8" opacity=".65" stroke="none"/><path d="M11 15.2h2l-1 1.1z" fill="#ff8fb8" stroke="none"/><path d="M12 16.3q-.7.9-1.7.5M12 16.3q.7.9 1.7.5"/></g></symbol>
+</defs></svg>
+<div class="fx" id="fx" aria-hidden="true"></div>
+<main>
+<h1><svg class="i"><use href="#i-flower"/></svg><span>Mi onboarding</span><svg class="i"><use href="#i-flower"/></svg></h1>
+<p class="sub">Tus apuntes, tu repaso y tus horas, separados por empresa. Se guarda en este navegador.</p>
+
+<div class="box" id="cobox">
+ <label id="colabel">Empresa</label>
+ <div id="chips" class="chips" role="group" aria-labelledby="colabel"></div>
+ <div class="actions">
+  <button class="btn" id="pdfBtn" type="button"><svg class="i"><use href="#i-pdf"/></svg>Exportar empresa</button>
+  <button class="btn ghost" id="pdfAll" type="button"><svg class="i"><use href="#i-pdf"/></svg>Exportar todo</button>
+ </div>
+ <details class="co">
+  <summary>Administrar empresas</summary>
+  <label for="con">Nombre</label>
+  <input id="con" placeholder="Ej.: Morfy" maxlength="60">
+  <div class="actions sm">
+   <button class="btn" id="addCo" type="button"><svg class="i"><use href="#i-plus"/></svg>Agregar</button>
+   <button class="btn ghost" id="renCo" type="button"><svg class="i"><use href="#i-pencil"/></svg>Renombrar</button>
+   <button class="btn bad" id="delCo" type="button"><svg class="i"><use href="#i-trash"/></svg>Borrar</button>
+  </div>
+  <p class="msg" id="comsg" role="status"></p>
+ </details>
+</div>
+
+<nav role="tablist" id="tabs"></nav>
+
+<section id="p-apuntes">
+ <div class="box">
+  <label for="nt">Título</label><input id="nt" placeholder="Ej.: Cómo se usa el chat">
+  <label for="nb">Qué aprendí</label><textarea id="nb"></textarea>
+  <div class="actions">
+   <button class="btn ghost" id="mic" type="button"><svg class="i"><use href="#i-mic"/></svg>Dictar apunte</button>
+   <button class="btn" id="addNote" type="button"><svg class="i"><use href="#i-heart"/></svg>Guardar apunte</button>
+  </div>
+  <p class="note" id="micmsg" role="status"></p>
+ </div>
+ <div class="box" id="notes"></div>
+</section>
+
+<section id="p-tarjetas" hidden>
+ <div class="box">
+  <div class="grid2">
+   <div><label for="cq">Pregunta</label><input id="cq" placeholder="Ej.: ¿Qué hago si el cliente está enojado?"></div>
+   <div><label for="ca">Respuesta</label><input id="ca"></div>
+  </div>
+  <div class="actions"><button class="btn" id="addCard" type="button"><svg class="i"><use href="#i-star"/></svg>Agregar tarjeta</button></div>
+ </div>
+ <div class="box card" id="study"></div>
+ <div id="studyBtns" class="actions"></div>
+ <div class="box" id="cards"></div>
+</section>
+
+<section id="p-horas" hidden>
+ <div class="stats" id="stats"></div>
+ <div class="box">
+  <div class="grid3">
+   <div><label for="hd">Fecha</label><input type="date" id="hd"></div>
+   <div><label for="hs">Desde</label><input type="time" id="hs"></div>
+   <div><label for="he">Hasta</label><input type="time" id="he"></div>
+  </div>
+  <label for="hn">Qué hice</label><input id="hn" placeholder="Ej.: Videos de teoría">
+  <div class="actions"><button class="btn" id="addHour" type="button"><svg class="i"><use href="#i-clock"/></svg>Registrar bloque</button></div>
+  <p class="msg" id="hmsg" role="alert"></p>
+ </div>
+ <div class="box">
+  <div class="grid3">
+   <div><label for="rate">USD por hora</label><input type="number" id="rate" min="0" step="0.1"></div>
+   <div><label for="fxr">Pesos por dólar</label><input type="number" id="fxr" min="0" step="1"></div>
+   <div><label for="goal">Meta diaria (horas)</label><input type="number" id="goal" min="1" step="0.5"></div>
+  </div>
+  <p class="empty" style="margin-top:12px">Cargá la cotización del día que vayas a cobrar. Las comisiones de pago no están incluidas. Estos valores se guardan por empresa.</p>
+ </div>
+ <div class="box" id="hours"></div>
+</section>
+
+<section id="p-dudas" hidden>
+ <div class="box">
+  <label for="dq">Duda para preguntar</label><input id="dq" placeholder="Ej.: ¿Hay tope de horas por día?">
+  <div class="actions"><button class="btn" id="addQ" type="button"><svg class="i"><use href="#i-chat"/></svg>Agregar duda</button></div>
+ </div>
+ <div class="box" id="qs"></div>
+</section>
+
+<section id="p-historial" hidden>
+ <div class="box">
+  <label id="hslabel">Ver historial de</label>
+  <div id="hscope" class="chips" role="group" aria-labelledby="hslabel">
+   <button class="chip" type="button" data-hs="co" aria-pressed="true">Esta empresa</button>
+   <button class="chip" type="button" data-hs="all" aria-pressed="false">Todas las empresas</button>
+  </div>
+ </div>
+ <div class="box" id="hist"></div>
+</section>
+
+<section id="p-tema" hidden>
+ <div class="box">
+  <label id="thlabel">Elegí cómo se ve la app</label>
+  <div id="themes" class="themes" role="group" aria-labelledby="thlabel">
+   <button class="theme" type="button" data-th="rosa" aria-pressed="true">
+    <span class="sw" style="--a:#ffe6f2;--b:#ff9ec9;--c:#e8559b"></span>
+    <span><b><svg class="i"><use href="#i-heart"/></svg>Rosa</b><small>Pastel y suave, el de siempre.</small></span>
+   </button>
+   <button class="theme" type="button" data-th="oscuro" aria-pressed="false">
+    <span class="sw" style="--a:#2e1120;--b:#8f2f60;--c:#ff8cc0"></span>
+    <span><b><svg class="i"><use href="#i-moon"/></svg>Oscuro</b><small>Rosa profundo, descansa la vista.</small></span>
+   </button>
+   <button class="theme" type="button" data-th="black" aria-pressed="false">
+    <span class="sw" style="--a:#000;--b:#7a2653;--c:#ff7ab8"></span>
+    <span><b><svg class="i"><use href="#i-cat"/></svg>Black</b><small>Negro total con detalles rosa.</small></span>
+   </button>
+  </div>
+  <p class="empty" style="margin-top:14px">El PDF se exporta con el tema que tengas elegido.</p>
+ </div>
+</section>
+<footer class="sig">Creado by Flor Bagnis <svg class="i"><use href="#i-heart"/></svg></footer>
+</main>
+
+<div id="pdf" aria-hidden="true"></div>
+
+<script src="app.js" defer></script>
+</body>
+</html>
